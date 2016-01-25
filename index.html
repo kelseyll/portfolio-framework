@@ -10,6 +10,9 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 </head>
 <body>
     <div class="flex flex-horizontal-center container">
@@ -19,15 +22,15 @@
                     <span>Bernet Clemons</span>
                 </div>
                 <div>
-                    <a href="" target="_blank">work</a>
-                    <a href="" <a href="mailto:someone@example.com?" target="_blank">contact</a>
+                    <a href="#work" target="_blank">work</a>
+                    <a href="" <a href="mailto:someone@example.com" target="_blank">contact</a>
                 </div>
             </nav>
         </header>
         <div class="flex hero-container">
             <h1> Hey. I am an up and coming maker, pepsi zero lover, and believer of all things.  </h1>
         </div>
-        <div class="images-container">
+        <div id="work" class="images-container">
             <!-- Work Item 1 -->
             <img src="images/phones-item-1.png">
             <h2>Company & Co App</h2>
@@ -42,5 +45,13 @@
             </p>
         </div>
     </div>
+    <script type="text/javascript">
+    $('a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top
+        }, 1000);
+        return false;
+    });
+  </script>
 </body>
 </html>
