@@ -1,0 +1,110 @@
+/* UVic WebDev Workshop 1
+* January 2016
+*/
+
+/*Global Elements*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/*Layout*/
+header {
+    padding: 50px 0;
+    width: 100%;
+}
+nav {
+    padding: 0 20px;
+}
+.container {
+    margin: auto;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-container {
+    margin: auto;
+    width: 100%;
+}
+.images-container,
+.hero-container {
+    padding: 0 20px;
+    max-width: 780px;
+}
+/*Typography*/
+h1 {
+    padding: 100px 0;
+    line-height: 60px;
+    font-size: 2em;
+    max-width: 450px;
+}
+a { 
+    /*default is underline*/
+    text-decoration: none;
+    /*default is blue*/
+    color: #000;
+}
+a:hover {
+    text-decoration: line-through;
+}
+header a,
+header span {
+    letter-spacing: 1px;
+    font-size: 1em;
+    padding: 0 10px;
+}
+header span {
+    color: #BDBDBD;
+    font-weight: 300; 
+}
+/*Elements*/
+img {
+    width: 100%;
+}
+/*Flex*/
+.flex {
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+.flex-horizontal-center {
+
+}
+.flex-spread {
+    justify-content: space-between;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+}
+.flex-start {
+    align-self: flex-start;
+    -moz-align-self: flex-start;
+    -webkit-align-self: flex-start;
+}
+/*Media Queries*/
+@media (max-width: 750px) {
+    header div:last-of-type {
+        display: none;
+    }
+    header a {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 24px;
+        line-height: 1.6;
+        padding: 50px 0;
+    }
+}
+@media (max-width: 400px) {
+    h1 {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+}
