@@ -20,15 +20,12 @@ header {
     width: 100%;
 }
 nav {
-    padding: 0 20px;
+    padding: 0 10px;
 }
 .container {
-    margin: auto;
     max-width: 960px;
-    display: flex;
+    margin: auto;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .hero-container {
     margin: auto;
@@ -43,7 +40,7 @@ nav {
 h1 {
     padding: 100px 0;
     font-size: 2em;
-    max-width: 450px;
+    max-width: 550px;
 }
 a { 
     /*default is underline*/
@@ -88,7 +85,9 @@ img {
     display: -ms-flexbox;
 }
 .flex-horizontal-center {
-
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
 }
 .flex-spread {
     justify-content: space-between;
@@ -124,6 +123,16 @@ img {
 @media (max-width: 400px) { 
     h1 {
         font-size: 20px;
-        padding: 20px 0;
+        padding: 20px 0 50px 0;
+    }
+    .images-container h2 {
+        font-size: 16px;
+    }
+    .images-container,
+    .hero-container {
+        padding: 0 8px;
+    }
+    nav {
+        padding: 0;
     }
 }
