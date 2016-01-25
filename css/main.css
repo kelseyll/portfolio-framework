@@ -12,6 +12,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
 }
 /*Layout*/
 header {
@@ -41,7 +42,6 @@ nav {
 /*Typography*/
 h1 {
     padding: 100px 0;
-    line-height: 60px;
     font-size: 2em;
     max-width: 450px;
 }
@@ -53,6 +53,18 @@ a {
 }
 a:hover {
     text-decoration: line-through;
+}
+.images-container p {
+    padding: 15px 0 100px 0;
+    line-height: 1.8;
+}
+.images-container h2 {
+    padding-top: 20px;
+    font-size: 20px;
+}
+.images-container a {
+    font-weight: 600;
+    text-decoration: underline;
 }
 header a,
 header span {
@@ -101,8 +113,15 @@ img {
         line-height: 1.6;
         padding: 50px 0;
     }
+    .images-container h2 {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    .images-container p {
+        padding: 10px 0 50px 0;
+    }
 }
-@media (max-width: 400px) {
+@media (max-width: 400px) { 
     h1 {
         font-size: 20px;
         padding: 20px 0;
