@@ -1,0 +1,31 @@
+/*
+Kelsey Legault
+October 2015
+ */
+
+/* Animations ----------------------------------- */ 
+
+/*Fadeup, for main content (h1)*/
+@-webkit-keyframes fadeup {
+    0%     { opacity: 0; -webkit-transform: translate(0px, 20px);}
+}
+@-moz-keyframes fadeup {
+    0%     { opacity: 0; -moz-transform: translate(0px, 20px);}
+}
+@keyframes fadeup {
+    0%    { opacity: 0; transform: translate(0px, 20px);}
+}
+
+/*Fadeup-delay, for sub-content*/
+@-webkit-keyframes fadeup-delay {
+    0%    { opacity: 0; }
+    30%   { opacity: 0; -webkit-transform: translate(0px, 10px);}
+}
+@-moz-keyframes fadeup-delay {
+    0%    { opacity: 0; }
+    30%   { opacity: 0; -moz-transform: translate(0px, 10px);}
+}
+@keyframes fadeup-delay {
+    0%    { opacity: 0; }
+    30%   { opacity: 0; transform: translate(0px, 10px);}
+}

@@ -18,6 +18,9 @@ body {
 header {
     padding: 50px 0;
     width: 100%;
+    -webkit-animation: fadeup-delay 1.5s;
+    -moz-animation: fadeup-delay 1.5s;
+    animation: fadeup-delay 1.5s;
 }
 nav {
     padding: 0 10px;
@@ -30,11 +33,19 @@ nav {
 .hero-container {
     margin: auto;
     width: 100%;
+    -webkit-animation: fadeup 1.5s;
+    -moz-animation: fadeup 1.5s;
+    animation: fadeup 1.5s;
 }
 .images-container,
 .hero-container {
     padding: 0 20px;
     max-width: 780px;
+}
+.images-container {
+    -webkit-animation: fadeup-delay 1.5s;
+    -moz-animation: fadeup-delay 1.5s;
+    animation: fadeup-delay 1.5s;
 }
 /*Typography*/
 h1 {
