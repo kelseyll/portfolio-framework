@@ -22,4 +22,8 @@ A minimal placeholder and resource list for the UVic WebDev Workshop 1: Intro to
 * http://ryan.menu/
 * http://ianwillia.ms/
 * http://dejan-markovic.com/
-* http://patricksun.co/#/
+* http://colinkeany.com/
+* http://nate.van-der-en.de/
+* http://waywardwild.com/
+* http://philippschmitt.com/
+* https://vnn.io/
