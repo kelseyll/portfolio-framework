@@ -1,5 +1,5 @@
 # portfolio-framework
-A minimal placeholder and resource list for the UVic WebDev Workshop 1
+A minimal placeholder and resource list for the UVic WebDev Workshop 1: Intro to HTML and CSS
 
 ###CSS Flexbox Resources
 * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
@@ -17,3 +17,9 @@ A minimal placeholder and resource list for the UVic WebDev Workshop 1
 * https://www.designernews.co/
 * https://dribbble.com/
 * http://www.awwwards.com/
+
+###Portfolio Examples
+* http://ryan.menu/
+* http://ianwillia.ms/
+* http://dejan-markovic.com/
+* http://patricksun.co/#/
