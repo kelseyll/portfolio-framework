@@ -28,7 +28,6 @@ nav {
 .container {
     max-width: 960px;
     margin: auto;
-    flex-direction: column;
 }
 .hero-container {
     margin: auto;
@@ -109,6 +108,11 @@ img {
     align-self: flex-start;
     -moz-align-self: flex-start;
     -webkit-align-self: flex-start;
+}
+.flex-direction-col {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
 }
 /*Media Queries*/
 @media (max-width: 750px) {
