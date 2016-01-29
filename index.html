@@ -34,8 +34,8 @@
         <div id="work" class="images-container">
             <!-- Work Item 1 -->
             <img src="images/phones-item-1.png">
-            <h2>Company & Co App</h2>
-            <p>
+            <h2 class="see-through appear">Company & Co App</h2>
+            <p class="see-through appear">
                 This is an app I made for <a href="http://www.cameronsworld.net/" target="_blank">Company & Co</a>, I used this technology and that strategy. This project was developed in one day (big shout out to khaled and his keys to success). I like cookies and milk, I hope you do to!
             </p>
             <!-- Work Item 2 -->
@@ -53,6 +53,12 @@
         }, 1000);
         return false;
     });
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 200) {     
+        $( ".appear" ).addClass( "opacity" );
+    }
+    });
+
   </script>
 </body>
 </html>
