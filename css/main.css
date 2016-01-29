@@ -2,7 +2,8 @@
 * January 2016
 */
 
-/*Global Elements*/
+/*see-through and appear classes are used for a demo jquery function
+that causes content to fade-in on scroll*/
 .see-through {
     opacity: 0;
 }
@@ -12,6 +13,8 @@
     -moz-animation: fadeup-delay 1.5s;
     animation: fadeup-delay 1.5s;
 }
+
+/*Global Elements*/
 * {
     margin: 0;
     padding: 0;
