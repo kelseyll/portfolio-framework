@@ -31,7 +31,7 @@ A minimal placeholder and resource list for the UVic WebDev Workshop 1: Intro to
 * https://www.designernews.co/stories/53105-my-stock-photo-bookmark
 * http://graphicburger.com/?s=free
 
-### Design News Resources
+### Design Inspo / News
 * https://www.designernews.co/
 * https://dribbble.com/
 * http://www.awwwards.com/
