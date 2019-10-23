@@ -12,7 +12,7 @@ A minimal placeholder and resource list for the UVic WebDev Workshop 1: Intro to
 3. Open that file in your favorite internet browser (we recommend Chrome)
   * For example, if I saved the zip file on my Desktop, I would go to this address in my browser: file:///Users/kelseylegault/Desktop/portfolio-framework/index.html
 
-4. Play around with the framework and make it your own. Ask questions. Make a meme. Have fun and believe in all things.
+4. Play around with the framework and make it your own. Ask questions. Make a meme!
 
 ### CSS Flexbox Resources
 * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
